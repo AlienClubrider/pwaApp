@@ -1,6 +1,6 @@
 {
-    "name": "pwaApp",
-    "short_name": "pwaApp",
+    "name": "BForm",
+    "short_name": "BForm",
     "theme_color": "#673ab7",
     "background_color": "#673ab7",
     "display": "standalone",
