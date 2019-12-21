@@ -2,11 +2,18 @@
 <mat-toolbar color="primary">
     <span>BForm</span>
 </mat-toolbar>
-<div class="inputFields">
-    <mat-form-field>
-        <input matInput placeholder="Input">
-    </mat-form-field>
-</div>
-<mat-slide-toggle>Slide me!</mat-slide-toggle>
+<mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile>
+        <div class="centerField">
+            <mat-form-field>
+                <input matInput placeholder="Input">
+            </mat-form-field>
+            <mat-slide-toggle>Slide me!</mat-slide-toggle>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+</mat-grid-list>
+
 
 <router-outlet></router-outlet>
